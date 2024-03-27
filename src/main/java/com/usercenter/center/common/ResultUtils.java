@@ -17,7 +17,6 @@ public class ResultUtils
     {
         ErrorCode successCode = ErrorCode.SUCCESS;
         return new baseRespond<>(successCode.getCode(),data,successCode.getMessage(),"");
-
     }
 
     public static baseRespond fail(ErrorCode errorCode)
